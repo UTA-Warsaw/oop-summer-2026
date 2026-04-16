@@ -1,9 +1,8 @@
-# Create the Student class
 class Student:
-  def __init__(self, name, grade, IndexNumber):
+  def __init__(self, name, grade, index_number):
     self.name = name
     self.grade = grade
-    self.IndexNumber = IndexNumber
+    self.index_number = index_number
 
 # Create an object
 s1 = Student("David", "B" , 36492)
@@ -18,4 +17,4 @@ s1 = "A"
 print(s1.grade)
 
 # Print the idex number
-print(s1.IndexNumber)
+print(s1.index_number)
