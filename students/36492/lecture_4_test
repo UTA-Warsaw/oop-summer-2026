@@ -1,0 +1,13 @@
+# kebab_dream_game
+
+student_favorite_programming_language = "Python"
+
+MAX_NUMBER_OF_STUDENTS = 30
+
+class StudentProfile:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def introduce(self):
+        return f"Hi, my name is {self.name} and I am {self.age} years old."
