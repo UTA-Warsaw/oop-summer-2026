@@ -31,6 +31,14 @@ Know how to:
   - `git push origin main`
 - Check repository status: `git status`
 
+### Common issues
+If your push is rejected you may need to use force
+```
+git push origin main --force-with-lease
+```
+That is very strong commend overwritting current content so use it wisely
+
+
 ## Resources
 
 - [Course syllabus](./syllabus.md)

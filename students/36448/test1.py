@@ -10,7 +10,7 @@ while a<5:
     a+=1
 print(l)
 
-st = 'Helllo'
+st = 'Hello'
 fruits = ['apple', 'orange', 'banana']
 
 for fruit in fruits:
