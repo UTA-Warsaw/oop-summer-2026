@@ -5,7 +5,7 @@
 ## Required Accounts
 
 - [ ] GitHub account
-- [ ] Gmail account
+- [ ] w3schools account (https://www.w3schools.com/python/default.asp)
 - [ ] Discord account
 
 https://discord.gg/w3MTztjY
@@ -30,6 +30,14 @@ Know how to:
   - `git commit -m 'My comment'`
   - `git push origin main`
 - Check repository status: `git status`
+
+### Common issues
+If your push is rejected you may need to use force
+```
+git push origin main --force-with-lease
+```
+That is very strong commend overwritting current content so use it wisely
+
 
 ## Resources
 
