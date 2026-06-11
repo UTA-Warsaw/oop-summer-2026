@@ -1,0 +1,37 @@
+class Student:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+a1 = Student("Alex",19)
+print(a1.name, a1.age)
+ 
+class Rectangle: 
+    def __init__(self,width,height):
+        self.width = width
+        self.height = height
+
+    def area(self):
+        return self.width * self.height
+
+z1 = Rectangle(5,8)
+print(z1.area())
+
+class Car:
+    pass
+
+v1 = Car()
+v1.brand = "BMW"
+v1.year = 2020
+print(v1.brand)
+print(v1.year)
+
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+calc = Calculator()
+
+result = calc.add(5, 3)
+
+print("Result:", result)
